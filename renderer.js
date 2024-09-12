@@ -1,5 +1,3 @@
-const { ipcRenderer } = require('electron');
-
 // Manejo de eventos para los botones
 document.getElementById('debugButton1')?.addEventListener('click', async () => {
   const debugButton1 = document.getElementById('debugButton1');
